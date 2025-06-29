@@ -2,19 +2,19 @@
 A full-featured Job Portal backend built using Node.js, Express, and MongoDB, with robust API documentation using Swagger.
 
 🔧 Tech Stack
-Backend Framework: Express.js
+1) Backend Framework: Express.js
 
-Database: MongoDB with Mongoose
+2) Database: MongoDB with Mongoose
 
-Authentication: JWT (JSON Web Token)
+3) Authentication: JWT (JSON Web Token)
 
-Security & Utilities:
+4) Security & Utilities:
 
-bcryptjs for password hashing
+ bcryptjs for password hashing
 
-cors, helmet, express-rate-limit, express-mongo-sanitize for security
+ cors, helmet, express-rate-limit, express-mongo-sanitize for security
 
-morgan for logging
+ morgan for logging
 
 API Documentation: Swagger (swagger-jsdoc, swagger-ui-express)
 
@@ -43,33 +43,32 @@ JOB-PORTAL/
 ```
 🚀 Getting Started
 1. Clone the Repository
-
+```
 git clone https://github.com/your-username/job-portal-backend.git
 cd job-portal-backend/JOB-PORTAL
-2. Install Dependencies
-
-
+```
+3. Install Dependencies
+```
 npm install
+```
 3. Set Up Environment Variables
 Create a .env file in the root directory:
-
-
-
+```
 PORT=8080
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
+```
 4. Run the Server
-
-
+```
 npm run server
 Server will start at: http://localhost:8080
-
+```
 
 📘 API Documentation
 Once the server is running, access the Swagger UI at:
-
+```
 👉 http://localhost:8080/api-doc
-
+```
 🔐 Features
 ✅ User Registration & Login (JWT based)
 
