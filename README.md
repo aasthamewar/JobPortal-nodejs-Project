@@ -84,17 +84,21 @@ Once the server is running, access the Swagger UI at:
 
 
 🧪 Sample Routes
-POST /api/v1/auth/register – Register user
+1)POST /api/v1/auth/register – Register user
 
-POST /api/v1/auth/login – Login user
+2)POST /api/v1/auth/login – Login user
 
-POST /api/v1/job/create-job – Create job (auth required)
+3)POST /api/v1/job/create-job – Create job (auth required)
 
-GET /api/v1/job/get-jobs – Fetch jobs
+4)GET /api/v1/job/get-jobs – Fetch jobs
 
-PUT /api/v1/job/update-job/:id – Update job
+5)PUT /api/v1/job/update-job/:id – Update job
 
-DELETE /api/v1/job/delete-job/:id – Delete job
+6)DELETE /api/v1/job/delete-job/:id – Delete job
+
+## Live Demo
+
+https://jobportal-nodejs-project.onrender.com/api-doc/
 
 
 ✨ Author
