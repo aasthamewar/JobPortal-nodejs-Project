@@ -19,7 +19,7 @@ morgan for logging
 API Documentation: Swagger (swagger-jsdoc, swagger-ui-express)
 
 📁 Project Structure
-
+```
 JOB-PORTAL/
 ├── config/
 │   └── db.js             # MongoDB connection
@@ -40,7 +40,7 @@ JOB-PORTAL/
 ├── server.js             # Entry point
 ├── .env                  # Environment variables
 └── package.json
-
+```
 🚀 Getting Started
 1. Clone the Repository
 
